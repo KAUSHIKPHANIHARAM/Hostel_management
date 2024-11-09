@@ -1,0 +1,70 @@
+ .main-content {
+     padding: 2rem;
+     background-color: #f8f9fa;
+ }
+
+
+ .hostel-card {
+     border: none;
+     border-radius: 10px;
+     overflow: hidden;
+     transition: transform 0.2s ease, box-shadow 0.2s ease;
+     cursor: pointer;
+ }
+
+ .hostel-card:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+ }
+
+
+ .hostel-img {
+     height: 200px;
+     object-fit: cover;
+     transition: transform 0.3s ease;
+ }
+
+ .hostel-card:hover .hostel-img {
+     transform: scale(1.05);
+ }
+
+
+ .card-title {
+     font-size: 1.2rem;
+     color: #007bff;
+     font-weight: bold;
+ }
+
+ .card-text {
+     font-size: 0.9rem;
+     color: #6c757d;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }
+
+
+ .btn-primary {
+     background: linear-gradient(90deg, #007bff, #0056b3);
+     border: none;
+     border-radius: 5px;
+     color: white;
+     font-size: 0.9rem;
+     padding: 0.5rem 1rem;
+     transition: background 0.3s ease;
+ }
+
+ .btn-primary:hover {
+     background: linear-gradient(90deg, #0056b3, #004080);
+ }
+
+
+ @media (max-width: 768px) {
+     .hostel-img {
+         height: 150px;
+     }
+
+     .card-title {
+         font-size: 1rem;
+     }
+ }

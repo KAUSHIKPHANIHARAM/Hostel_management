@@ -1,0 +1,18 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h3 {
+  color: #333;
+}
+
+.hostel-card {
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 8px;
+}

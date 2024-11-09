@@ -1,0 +1,45 @@
+ .main-content {
+     background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
+     color: #333;
+     min-height: 100vh;
+     padding: 60px 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .main-content h2 {
+     font-weight: bold;
+     color: #2c3e50;
+     font-size: 2.8em;
+ }
+
+ .main-content p {
+     color: #6c757d;
+     font-size: 1.2em;
+ }
+
+ .img-fluid {
+     max-width: 100%;
+     height: auto;
+     border-radius: 10px;
+     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .image-zoom:hover {
+     transform: scale(1.05);
+     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+ }
+
+
+ @media (max-width: 768px) {
+     .main-content h2 {
+         font-size: 2.2em;
+     }
+
+     .main-content p {
+         font-size: 1em;
+     }
+ }
